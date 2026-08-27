@@ -1,0 +1,16 @@
+# Crawler configuration — copy this file to `crawler.toml` and fill in real
+# values. `crawler.toml` is git-ignored so credentials never get committed.
+#
+# Every value here can also be supplied by an environment variable
+# (CRAWLER_BASE_URL / CRAWLER_USER / CRAWLER_PASS) or a CLI flag
+# (--base-url / --username / --password), which take precedence over the file.
+
+[target]
+# The site to crawl. Also fixes the crawl's host scope — only URLs on this
+# host are followed.
+base_url = "https://example.com/"
+
+[auth]
+# HTTP Basic Auth credentials, sent on every request (pages and assets alike).
+username = "your-username"
+password = "your-password"

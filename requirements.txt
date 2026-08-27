@@ -1,0 +1,7 @@
+requests>=2.31
+beautifulsoup4>=4.12
+Pillow>=10
+pytest>=8
+
+# Optional — enables OCR of images (also needs a `tesseract` binary on PATH):
+# pytesseract>=0.3

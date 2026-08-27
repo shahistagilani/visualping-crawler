@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.egg-info/
+*.pyc
+crawler.toml
+imgview/
+output_deep/
+output/
+scratch_skill/
